@@ -5,8 +5,8 @@ import hudson.util.ListBoxModel;
 /**
  * @author Janario Oliveira
  */
-public enum HttpMode {
-	GET,
+public enum HttpMode{
+GET,
 	HEAD,
 	POST,
 	PUT,
@@ -21,4 +21,5 @@ public enum HttpMode {
 		}
 		return items;
 	}
+
 }
